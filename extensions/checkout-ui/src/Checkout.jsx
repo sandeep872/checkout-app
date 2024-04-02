@@ -120,7 +120,7 @@ function Extension() {
 
       </Grid>
       <Grid
-        columns={['100%']}>
+        columns={['100%']} status="review"> 
         <View>
           <Grid columns={['30%', '70%']} >
             <View padding="base">

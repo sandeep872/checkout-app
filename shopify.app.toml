@@ -3,7 +3,7 @@
 client_id = "f448178d10579045e35f7b9616ee8946"
 name = "checkout-ui"
 handle = "checkout-ui-309"
-application_url = "https://urgent-phase-turtle-amenities.trycloudflare.com"
+application_url = "https://paperbacks-quarterly-linking-bytes.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://urgent-phase-turtle-amenities.trycloudflare.com/auth/callback",
-  "https://urgent-phase-turtle-amenities.trycloudflare.com/auth/shopify/callback",
-  "https://urgent-phase-turtle-amenities.trycloudflare.com/api/auth/callback"
+  "https://paperbacks-quarterly-linking-bytes.trycloudflare.com/auth/callback",
+  "https://paperbacks-quarterly-linking-bytes.trycloudflare.com/auth/shopify/callback",
+  "https://paperbacks-quarterly-linking-bytes.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
