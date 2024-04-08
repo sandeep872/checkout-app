@@ -19124,20 +19124,11 @@
   // node_modules/@shopify/ui-extensions/build/esm/surfaces/checkout/components/BlockSpacer/BlockSpacer.mjs
   var BlockSpacer = createRemoteComponent("BlockSpacer");
 
-  // node_modules/@shopify/ui-extensions/build/esm/surfaces/checkout/components/BlockStack/BlockStack.mjs
-  var BlockStack = createRemoteComponent("BlockStack");
-
   // node_modules/@shopify/ui-extensions/build/esm/surfaces/checkout/components/Grid/Grid.mjs
   var Grid = createRemoteComponent("Grid");
 
-  // node_modules/@shopify/ui-extensions/build/esm/surfaces/checkout/components/Heading/Heading.mjs
-  var Heading = createRemoteComponent("Heading");
-
   // node_modules/@shopify/ui-extensions/build/esm/surfaces/checkout/components/Image/Image.mjs
   var Image = createRemoteComponent("Image");
-
-  // node_modules/@shopify/ui-extensions/build/esm/surfaces/checkout/components/Text/Text.mjs
-  var Text = createRemoteComponent("Text");
 
   // node_modules/@shopify/ui-extensions/build/esm/surfaces/checkout/components/View/View.mjs
   var View = createRemoteComponent("View");
@@ -19473,20 +19464,11 @@ ${errorInfo.componentStack}`);
   // node_modules/@shopify/ui-extensions-react/build/esm/surfaces/checkout/components/BlockSpacer/BlockSpacer.mjs
   var BlockSpacer2 = createRemoteReactComponent(BlockSpacer);
 
-  // node_modules/@shopify/ui-extensions-react/build/esm/surfaces/checkout/components/BlockStack/BlockStack.mjs
-  var BlockStack2 = createRemoteReactComponent(BlockStack);
-
   // node_modules/@shopify/ui-extensions-react/build/esm/surfaces/checkout/components/Grid/Grid.mjs
   var Grid2 = createRemoteReactComponent(Grid);
 
-  // node_modules/@shopify/ui-extensions-react/build/esm/surfaces/checkout/components/Heading/Heading.mjs
-  var Heading2 = createRemoteReactComponent(Heading);
-
   // node_modules/@shopify/ui-extensions-react/build/esm/surfaces/checkout/components/Image/Image.mjs
   var Image2 = createRemoteReactComponent(Image);
-
-  // node_modules/@shopify/ui-extensions-react/build/esm/surfaces/checkout/components/Text/Text.mjs
-  var Text2 = createRemoteReactComponent(Text);
 
   // node_modules/@shopify/ui-extensions-react/build/esm/surfaces/checkout/components/View/View.mjs
   var View2 = createRemoteReactComponent(View);
@@ -19499,148 +19481,11 @@ ${errorInfo.componentStack}`);
   );
   function Extension() {
     return /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(import_jsx_runtime4.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { inlineAlignment: "center", level: 1, children: "Manuka Honey You Can Trust" }),
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(BlockSpacer2, { spacing: "base" }),
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
-        Grid2,
-        {
-          columns: ["50%", "50%"],
-          children: [
-            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
-              Grid2,
-              {
-                columns: ["30%", "70%"],
-                children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(View2, { children: [
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Image2, { source: "https://cdn.shopify.com/s/files/1/0183/9570/t/65/assets/logo-1.png?v=1711707643" }),
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Image2, { source: "./images/logo-1.png" })
-                  ] }),
-                  /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(BlockStack2, { inlineAlignment: "left", children: [
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { level: 3, children: "GenuHoney" }),
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { size: "base", children: "Authenticity Certified" })
-                  ] }) })
-                ]
-              }
-            ) }),
-            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
-              Grid2,
-              {
-                columns: ["30%", "70%"],
-                children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Image2, { source: "https://cdn.shopify.com/s/files/1/0183/9570/t/65/assets/logo-2.png?v=1711707643" }) }),
-                  /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(BlockStack2, { inlineAlignment: "left", children: [
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { level: 3, children: "100% " }),
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { size: "base", children: "Satisfaction Guaranteed" })
-                  ] }) })
-                ]
-              }
-            ) }),
-            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
-              Grid2,
-              {
-                columns: ["30%", "70%"],
-                children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Image2, { source: "https://cdn.shopify.com/s/files/1/0183/9570/t/65/assets/logo-3.png?v=1711707643" }) }),
-                  /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(BlockStack2, { inlineAlignment: "left", children: [
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { level: 3, children: "New Zealand.com  " }),
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { size: "base", children: "License no. 100293" })
-                  ] }) })
-                ]
-              }
-            ) }),
-            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(
-              Grid2,
-              {
-                columns: ["30%", "70%"],
-                children: [
-                  /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Image2, { source: "https://cdn.shopify.com/s/files/1/0183/9570/t/65/assets/logo-4.png?v=1711707643" }) }),
-                  /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(BlockStack2, { inlineAlignment: "left", children: [
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { level: 3, children: "Glyphosate" }),
-                    /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { size: "base", children: "Residue Free" })
-                  ] }) })
-                ]
-              }
-            ) })
-          ]
-        }
-      ),
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
-        Grid2,
-        {
-          columns: ["100%"],
-          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { inlineAlignment: "center", level: 1, children: "What our Customers are Saying" }) })
-        }
-      ),
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
-        Grid2,
-        {
-          columns: ["100%"],
-          status: "review",
-          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(View2, { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Grid2, { columns: ["30%", "70%"], children: [
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { children: "M" }) }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(View2, { padding: "base", children: [
-                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Image2, { source: "https://cdn.shopify.com/s/files/1/0183/9570/t/65/assets/stars.png?v=1711707643" }),
-                "  2/24/2024",
-                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { size: "base", children: " Verified" }),
-                " ",
-                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { children: "Martin M." })
-              ] })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Grid2, { columns: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(View2, { children: [
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { level: 2, children: "Best honey EVER !!" }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(BlockSpacer2, { spacing: "base" }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { size: "base", children: "After extensive research, tasting many different kinds of honey over the years and then actual tasting this honey, there is NO comparison and I will never purchase any other honey again but Bees & Trees Manuka honey, period." })
-            ] }) })
-          ] })
-        }
-      ),
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
-        Grid2,
-        {
-          columns: ["100%"],
-          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(View2, { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Grid2, { columns: ["30%", "70%"], children: [
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { children: "C" }) }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(View2, { padding: "base", children: [
-                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Image2, { source: "https://cdn.shopify.com/s/files/1/0183/9570/t/65/assets/stars.png?v=1711707643" }),
-                "  2/24/2024",
-                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { size: "base", children: " Verified" }),
-                " ",
-                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { children: "Char" })
-              ] })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Grid2, { columns: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(View2, { children: [
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { level: 2, children: "Digestive Issues" }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(BlockSpacer2, { spacing: "base" }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { size: "base", children: "Bees and Trees helped me with digestive issues especially after Covid two years ago. I have been taking ever since. I love this product!" })
-            ] }) })
-          ] })
-        }
-      ),
-      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(
-        Grid2,
-        {
-          columns: ["100%"],
-          children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(View2, { children: [
-            /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Grid2, { columns: ["30%", "70%"], children: [
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { padding: "base", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { children: "B" }) }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(View2, { padding: "base", children: [
-                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Image2, { source: "https://cdn.shopify.com/s/files/1/0183/9570/t/65/assets/stars.png?v=1711707643" }),
-                "  2/24/2024",
-                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { size: "base", children: " Verified" }),
-                " ",
-                /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { children: "Barbara H." })
-              ] })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Grid2, { columns: "100%", children: /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(View2, { children: [
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Heading2, { level: 2, children: "Love manuka honey" }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(BlockSpacer2, { spacing: "base" }),
-              /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Text2, { size: "base", children: "I ordered the 4 pack of 550 mg for me and family members for Christmas. I loved it so l subscribed to the 830 mg to boost my immune system. It's very tasty! I eat a spoonful every day. Thank you Bees & Trees!" })
-            ] }) })
-          ] })
-        }
-      )
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsxs)(Grid2, { children: [
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Image2, { source: "https://cdn.shopify.com/s/files/1/0183/9570/t/65/assets/checkout-image-1.png?v=1712577998" }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(BlockSpacer2, { spacing: "base" })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Grid2, { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(View2, { children: /* @__PURE__ */ (0, import_jsx_runtime4.jsx)(Image2, { source: "https://cdn.shopify.com/s/files/1/0183/9570/t/65/assets/check-image-2.jpg?v=1712578048" }) }) })
     ] });
   }
 })();

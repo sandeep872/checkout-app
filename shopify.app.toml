@@ -3,7 +3,7 @@
 client_id = "f448178d10579045e35f7b9616ee8946"
 name = "checkout-ui"
 handle = "checkout-ui-309"
-application_url = "https://paperbacks-quarterly-linking-bytes.trycloudflare.com"
+application_url = "https://psychiatry-unavailable-slovakia-anatomy.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://paperbacks-quarterly-linking-bytes.trycloudflare.com/auth/callback",
-  "https://paperbacks-quarterly-linking-bytes.trycloudflare.com/auth/shopify/callback",
-  "https://paperbacks-quarterly-linking-bytes.trycloudflare.com/api/auth/callback"
+  "https://psychiatry-unavailable-slovakia-anatomy.trycloudflare.com/auth/callback",
+  "https://psychiatry-unavailable-slovakia-anatomy.trycloudflare.com/auth/shopify/callback",
+  "https://psychiatry-unavailable-slovakia-anatomy.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
